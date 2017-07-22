@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        ></item>
+    <item
+        android:title="Settings"
+        android:id="@+id/settings"
+        ></item>
+    <item
+        android:title="Add"
+        android:id="@+id/add"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:title="Delete"
+        android:id="@+id/delete"
+        android:icon="@mipmap/delete"
+        app:showAsAction="always"
+        ></item>
+
+</menu>
